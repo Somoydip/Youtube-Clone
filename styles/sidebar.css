@@ -1,0 +1,40 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+  
+
+
+  /* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc; /* Change color on hover */
+}
+
+/* Handle on scrollbar grab */
+::-webkit-scrollbar-thumb:active {
+  background: #999999; /* Change color on scrollbar grab */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaaaaa; /* Set the color of the scrollbar handle */
+  border-radius: 5px; /* Round the corners of the scrollbar handle */
+}
+
+  
